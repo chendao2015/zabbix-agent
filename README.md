@@ -1,4 +1,6 @@
-# zabbix-agent install guide
+zabbix-agent install guide
+========
+
 cd /usr/src
 
 git clone https://github.com/chendao2015/zabbix-agent.git
@@ -8,6 +10,8 @@ cd zabbix-agent
 tar xf zabbix-agent.tar.bz2
 
 chmod +x zabbix-agent_install.sh
+
+./zabbix-agent_install.sh
 
 
 # explain
@@ -22,4 +26,4 @@ chmod +x zabbix-agent_install.sh
 #If you have executed script zabbix-agent_install.sh,Please put your script on /etc/zabbix/alterscripts directory.
 
 
-./zabbix-agent_install.sh
+
