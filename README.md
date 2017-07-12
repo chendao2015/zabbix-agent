@@ -1,6 +1,6 @@
 zabbix-agent install guide
 ========
-
+```Bash
 cd /usr/src
 
 git clone https://github.com/chendao2015/zabbix-agent.git
@@ -12,6 +12,7 @@ tar xf zabbix-agent.tar.bz2
 chmod +x zabbix-agent_install.sh
 
 ./zabbix-agent_install.sh
+```
 
 
 # explain
