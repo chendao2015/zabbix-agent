@@ -16,9 +16,6 @@ chmod +x zabbix-agent_install.sh
 
 
 # explain
-Please change following content to fit your environment in this script before you execute.
-* `zabbix_server_ip`         This value must be set your zabbix server's ip address.
-* `zabbix_server_port`       This value must be set your zabbix server's port.
 
 The alterscripts directory is used to store third party scripts.
 
